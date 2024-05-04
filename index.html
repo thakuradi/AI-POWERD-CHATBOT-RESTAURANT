@@ -41,6 +41,15 @@
 
 <body id="top">
 
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "f22b594b-be53-4220-a2c5-d1699f8159c7",
+        apiHost: "http://4.246.243.64:3000",
+    })
+</script>
+
+
   <!-- 
     - #PRELOADER
   -->
@@ -101,17 +110,6 @@
 
     </div>
   </div>
-
-
-
-
-  <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "f22b594b-be53-4220-a2c5-d1699f8159c7",
-        apiHost: "http://4.246.243.64:3000",
-    })
-</script>
 
   <!-- 
     - #HEADER
